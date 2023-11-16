@@ -43,6 +43,7 @@ function(currentRecord, record) {
             var RECORD_CUSTOM = record.create({
                 type: 'customrecord_tem_shareing_session'
             });
+            log.debug('test')
 
             RECORD_CUSTOM.setText({
                 fieldId: 'name',
